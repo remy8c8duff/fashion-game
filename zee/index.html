@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 	<title>Dressing Game</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="css/style.css" type="text/css">
+ 	<link rel="stylesheet" href="css/jquery.vnm.confettiButton.css">
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	
+</head>
+
+	
+<body>
+	
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+	    <a class="navbar-brand" href="index.html">
+	    	<span class="navbar-brand mb-0 h1">DCY&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	    	<img src="image/bag2.png" width="30" height="30" alt="">
+	    	<img src="image/shoe6.png" width="30" height="30" alt="">
+	    	<img src="image/dress.01.png" width="30" height="30" alt="">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		  
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			  <li class="nav-item active">
+				<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="game.html">GAME</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="merchandise.html">MERCHANDISE</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="contact.html">CONTACT</a>
+			  </li>
+			</ul>
+		</div>
+	</nav>
+	<div class="video-section">
+		<video id="video-elem" preload="auto" autoplay="true" loop="loop" muted="muted" poster="videoGIF.gif">
+			<source src="motion.mp4" type="video/mp4">
+			video is not supported
+		</video>
+		<div class="video-overlay">
+			<h1>Are you guys ready to play the game?</h1>
+		</div>
+	</div>
+	<section id="filler" class="p-2">
+		<div class="box1">
+			
+		</div>
+	</section>
+	<h1>How to play this game ?</h1>
+	<h4>Three rules for this game!</h4>
+	<div class="container py-5 ">
+		<div class="row">
+			<div class="col-md-6 col-lg-4 my-3  mx-auto">
+			 	<div class="card">
+			 		<img src="image/bag5.png" alt="yellow purse"  class="card-img-top">
+						<div class="card-body">
+							<h2 class="card-title text-capitalized text-center">One</h2>
+							<p class="card-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel recusandae, numquam quidem sunt adipisci odit!
+							</p>
+							<button class="btn">Read More</button>
+						</div>	
+				</div>
+			</div>
+			
+			<div class="col-md-6 col-lg-4 my-3  mx-auto">
+			 	<div class="card">
+			 		<img src="image/shoe13.jpeg" alt="black dress" class="card-img-top">
+						<div class="card-body">
+							<h2 class="card-title text-capitalized text-center">Two</h2>
+							<p class="card-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel recusandae, numquam quidem sunt adipisci odit!
+							</p>
+							<button class="btn">Read More</button>
+						</div>	
+				</div>
+			</div>
+			
+			<div class="col-md-6 col-lg-4 my-3 h-25 mx-auto">
+			 	<div class="card">
+			 		<img src="image/dress.03.png" alt="flat shoe" class="card-img-top">
+						<div class="card-body">
+							<h2 class="card-title text-capitalized text-center">Three</h2>
+							<p class="card-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel recusandae, numquam quidem sunt adipisci odit!
+							</p>
+							<button class="btn" >Read More</button>
+							
+						</div>	
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<br>
+
+
+
+	<div  id="filler-2" class="p-5 container">
+		<div class="row">
+			<div class="col-md-6 mx-auto text-center">
+				<button type="button" class="btn btn-outline-danger"><a href="game.html" class="btn">PRESS ME</a></button>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="container-fluid bg-dark py-1">
+		<div class="row">
+			<div class="col text-center">
+				<a href="#" class="btn">
+					<i class="fab fa-facebook fa-3x text-primary m-2"></i>
+				</a>
+				<a href="#" class="btn">
+					<i class="fab fa-twitter fa-3x text-primary m-2"></i>
+				</a>
+				<a href="#" class="btn">
+					<i class="fab fa-instagram fa-3x text-primary m-2"></i>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+
+
+	
+	
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/all.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+	<script src="js/jquery.vnm.confettiButton.min.js"></script>
+	<script>
+	
+		
+		$(function(){
+
+			$('.btn').confettiButton({
+				hoverOnly: true
+			});
+
+		});
+			
+	</script>
+
+</body>
+</html>

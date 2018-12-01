@@ -1,0 +1,57 @@
+/*
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+}
+*/
+
+#bag img, #dress img, #shoes img{
+    cursor: url('../img/openhandsmall.png'), auto;
+}
+
+#bag img:active, #dress img:active, #shoes img:active{
+    cursor: url('../img/openhandgrab.png'), auto;
+}
+
+#dress .carousel-inner{
+  max-height: 550px !important;
+}
+
+#bag .carousel-inner{
+  max-height: 100px !important;
+}
+
+#shoes .carousel-inner{
+  max-height: 100px !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  
+ 
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: salmon;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: salmon;
+}
+.round{
+  background-color: white;
+  border-radius: 10% ;
+}
