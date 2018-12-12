@@ -148,7 +148,7 @@ h4{
 .video-section {
 	position: relative;
 	width: 100%;
-	max-height: 550px;
+	max-height: 20rem;
 	overflow: hidden;
 }
 #video-elem {
@@ -167,6 +167,8 @@ video::-webkit-media-controls {
 	background-color: rgba(255,255,255,0.8);
 	opacity: 0;
 	transition: opacity 0.3s ease;
+	display:flex;
+	justify-content: center;
 }
 .video-overlay:hover {
 	opacity: 1;
@@ -174,9 +176,7 @@ video::-webkit-media-controls {
 
 .video-overlay h1 {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
+	width:360px;
 	text-transform: uppercase;
 	font-size: 3em;
 	color: #000;
